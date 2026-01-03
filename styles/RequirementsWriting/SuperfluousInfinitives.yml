@@ -1,0 +1,15 @@
+---
+# INCOSE R10 - Superfluous Infinitives
+# Reference: https://reqi.io/articles/incose-requirements-quality-42-rule-guide
+extends: existence
+message: "Avoid superfluous infinitives like '%s'. State the requirement directly (INCOSE R10)."
+link: https://reqi.io/articles/incose-requirements-quality-42-rule-guide
+level: warning
+tokens:
+  - be designed to
+  - be able to
+  - be capable of
+  - provide the ability to
+  - to enable
+  - to allow
+  - designed to

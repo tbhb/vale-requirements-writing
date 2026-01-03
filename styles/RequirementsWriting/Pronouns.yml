@@ -1,0 +1,49 @@
+---
+# INCOSE R24 - Pronouns
+# Reference: https://reqi.io/articles/incose-requirements-quality-42-rule-guide
+extends: existence
+message: "Avoid pronouns like '%s'. Use specific nouns to ensure clarity (INCOSE R24)."
+level: warning
+tokens:
+  # Personal pronouns
+  - I
+  - me
+  - my
+  - mine
+  - we
+  - us
+  - our
+  - ours
+  - you
+  - your
+  - yours
+  - he
+  - him
+  - his
+  - she
+  - her
+  - hers
+  - it
+  - its
+  - they
+  - them
+  - their
+  - theirs
+  # Indefinite pronouns
+  - anyone
+  - everyone
+  - someone
+  - no one
+  - anybody
+  - everybody
+  - somebody
+  - nobody
+  - anything
+  - everything
+  - something
+  - nothing
+  - one
+  - ones
+  - another
+  - other
+  - others

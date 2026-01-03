@@ -1,0 +1,10 @@
+---
+extends: substitution
+message: "Use 'each' instead of '%s' for universal quantification (INCOSE R32)."
+link: https://reqi.io/articles/incose-requirements-quality-42-rule-guide
+level: warning
+ignorecase: true
+swap:
+  all: each
+  any: each
+  both: each

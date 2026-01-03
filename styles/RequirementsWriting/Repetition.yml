@@ -1,0 +1,7 @@
+---
+# INCOSE R30 - Unique Expression
+# Reference: https://reqi.io/articles/incose-requirements-quality-42-rule-guide
+extends: repetition
+message: "'%s' is repeated. Express each requirement once and only once (INCOSE R30)."
+level: warning
+alpha: true

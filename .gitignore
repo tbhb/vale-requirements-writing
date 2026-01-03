@@ -1,0 +1,23 @@
+# Virtual environments
+.venv/
+
+# Node.js
+node_modules/
+
+# Vale synced packages (external styles downloaded to styles/)
+styles/*
+!styles/RequirementsWriting/
+!styles/config/vocabularies/requirements-writing
+
+# Claude/OAPS (local development)
+.claude
+.oaps/logs/
+.oaps/state.db
+
+# OS files
+.DS_Store
+*.swp
+
+# Build artifacts
+*.zip
+dist/

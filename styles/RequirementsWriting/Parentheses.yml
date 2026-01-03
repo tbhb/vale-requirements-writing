@@ -1,0 +1,9 @@
+---
+extends: existence
+message: >-
+  Avoid parentheses containing subordinate text '%s'. Important information
+  should not be hidden in parentheses (INCOSE R21).
+link: https://reqi.io/articles/incose-requirements-quality-42-rule-guide
+level: warning
+raw:
+  - '\([^)]+\)'

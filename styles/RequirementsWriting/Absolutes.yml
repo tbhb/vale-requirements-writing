@@ -1,0 +1,24 @@
+---
+# INCOSE R26 - Absolutes
+# Reference: https://reqi.io/articles/incose-requirements-quality-42-rule-guide
+extends: existence
+message: "Avoid unachievable absolutes like '%s'. Use realistic, measurable targets (INCOSE R26)."
+level: warning
+tokens:
+  - 100%
+  - 100 percent
+  - always
+  - never
+  - all
+  - every
+  - none
+  - impossible
+  - perfect
+  - perfectly
+  - infinite
+  - zero defects
+  - completely
+  - totally
+  - absolutely
+  - entirely
+  - wholly

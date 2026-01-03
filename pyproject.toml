@@ -1,0 +1,15 @@
+[project]
+name = "vale-requirements-writing"
+version = "0.0.0"
+description = "Vale styles for writing software requirements."
+readme = "README.md"
+requires-python = ">=3.14"
+classifiers = ["Private :: Do Not Upload"]
+dependencies = []
+
+[dependency-groups]
+dev = ["codespell>=2.4.1", "prek>=0.2.25", "vale>=3.13.0.0", "yamllint>=1.37.1"]
+
+[tool.codespell]
+skip = ".claude,.oaps,.vale,uv.lock,tmp,pnpm-lock.yaml,styles,dist,*.cdx.json"
+ignore-words-list = "AKS,CrossReference,Nd,Wont,WONT"

@@ -1,0 +1,13 @@
+---
+extends: existence
+message: "Use defined convention for logical expressions like '[X AND Y]' instead of '%s' (INCOSE R15)."
+level: warning
+ignorecase: true
+tokens:
+  - 'and/or'
+  - 'and or'
+  - 'either \w+ or \w+'
+  - 'both \w+ and \w+'
+  - '\w+ or \w+ or both'
+  - '\w+ and \w+ or \w+'
+  - '\w+ or \w+ and \w+'

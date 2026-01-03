@@ -1,0 +1,20 @@
+---
+extends: existence
+message: "Avoid combinators like '%s' that join clauses. Each requirement should express a single thought (INCOSE R19)."
+link: https://reqi.io/articles/incose-requirements-quality-42-rule-guide
+level: warning
+ignorecase: true
+tokens:
+  - and
+  - or
+  - then
+  - unless
+  - but
+  - as well as
+  - but also
+  - however
+  - whether
+  - meanwhile
+  - whereas
+  - on the other hand
+  - otherwise

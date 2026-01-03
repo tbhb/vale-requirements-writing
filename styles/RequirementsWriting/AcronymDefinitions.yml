@@ -1,0 +1,12 @@
+---
+# R37 - Acronyms
+# Use acronyms consistently throughout all artifacts.
+# Acronyms should be defined on first use.
+extends: conditional
+message: "The acronym '%s' should be defined on first use (INCOSE R37)."
+link: https://reqi.io/articles/incose-requirements-quality-42-rule-guide
+level: warning
+scope: text
+ignorecase: false
+first: \b[A-Z]{2,5}\b
+second: \([A-Z]{2,5}\)

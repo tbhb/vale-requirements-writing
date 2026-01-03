@@ -1,0 +1,34 @@
+---
+# R38 - Abbreviations
+# Avoid abbreviations unless absolutely necessary and clearly defined.
+extends: existence
+message: "Avoid abbreviations like '%s'. Write out the full term (INCOSE R38)."
+link: https://reqi.io/articles/incose-requirements-quality-42-rule-guide
+level: warning
+scope: text
+ignorecase: true
+tokens:
+  - approx
+  - max
+  - min
+  - avg
+  - qty
+  - amt
+  - 'no\.'
+  - w/
+  - w/o
+  - b/c
+  - incl
+  - excl
+  - dept
+  - req
+  - spec
+  - doc
+  - info
+  - config
+  - admin
+  - auth
+  - env
+  - dev
+  - prod
+  - impl

@@ -1,0 +1,19 @@
+---
+extends: existence
+message: "Define temporal dependencies explicitly instead of using '%s' (INCOSE R35)."
+link: https://reqi.io/articles/incose-requirements-quality-42-rule-guide
+level: warning
+ignorecase: true
+tokens:
+  - eventually
+  - until
+  - before
+  - after
+  - as
+  - once
+  - earliest
+  - latest
+  - instantaneous
+  - simultaneous
+  - at last
+  - at the same time

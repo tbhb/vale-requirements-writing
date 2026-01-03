@@ -1,0 +1,19 @@
+---
+# INCOSE R8 - Escape Clauses
+# Reference: https://reqi.io/articles/incose-requirements-quality-42-rule-guide
+extends: existence
+message: "Avoid escape clauses like '%s' that allow vague conditions (INCOSE R8)."
+link: https://reqi.io/articles/incose-requirements-quality-42-rule-guide
+level: warning
+tokens:
+  - so far as is possible
+  - as little as possible
+  - where possible
+  - as much as possible
+  - if it should prove necessary
+  - if necessary
+  - to the extent necessary
+  - as appropriate
+  - as required
+  - to the extent practical
+  - if practicable

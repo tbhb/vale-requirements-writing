@@ -1,0 +1,181 @@
+---
+extends: existence
+message: "Avoid vague terms like '%s' in requirements. Use specific, measurable language (INCOSE R7)."
+link: https://reqi.io/articles/incose-requirements-quality-42-rule-guide
+ignorecase: true
+level: warning
+tokens:
+  - some
+  - any
+  - allowable
+  - several
+  - many
+  - a lot of
+  - a few
+  - almost always
+  - very nearly
+  - nearly
+  - about
+  - close to
+  - almost
+  - approximate
+  - approximately
+  - ancillary
+  - relevant
+  - routine
+  - common
+  - generic
+  - significant
+  - significantly
+  - flexible
+  - expandable
+  - typical
+  - typically
+  - sufficient
+  - sufficiently
+  - adequate
+  - adequately
+  - appropriate
+  - appropriately
+  - efficient
+  - efficiently
+  - effective
+  - effectively
+  - proficient
+  - proficiently
+  - reasonable
+  - reasonably
+  - customary
+  - user-friendly
+  - easy
+  - easily
+  - simple
+  - simply
+  - fast
+  - quick
+  - quickly
+  - slow
+  - slowly
+  - good
+  - bad
+  - better
+  - worse
+  - best
+  - worst
+  - optimal
+  - optimally
+  - minimal
+  - minimally
+  - maximum
+  - minimum
+  - high
+  - low
+  - large
+  - small
+  - big
+  - little
+  - long
+  - short
+  - wide
+  - narrow
+  - enough
+  - various
+  - numerous
+  - most
+  - few
+  - often
+  - seldom
+  - rarely
+  - sometimes
+  - frequently
+  - usually
+  - generally
+  - normally
+  - occasionally
+  - regular
+  - regularly
+  - irregular
+  - irregularly
+  - excessive
+  - excessively
+  - acceptable
+  - unacceptable
+  - suitable
+  - unsuitable
+  - satisfactory
+  - unsatisfactory
+  - timely
+  - prompt
+  - promptly
+  - as needed
+  - as required
+  - as appropriate
+  - as necessary
+  - if necessary
+  - if needed
+  - if possible
+  - if applicable
+  - when necessary
+  - when needed
+  - when possible
+  - when appropriate
+  - where applicable
+  - where necessary
+  - where possible
+  - where appropriate
+  - etc
+  - and so on
+  - and so forth
+  - among others
+  - and others
+  - or similar
+  - or equivalent
+  - or better
+  - or more
+  - or less
+  - at least
+  - at most
+  - up to
+  - more or less
+  - to the extent possible
+  - to the extent practicable
+  - to the maximum extent
+  - to the greatest extent
+  - as much as possible
+  - as far as possible
+  - as soon as possible
+  - in a timely manner
+  - without undue delay
+  - without unnecessary delay
+  - state of the art
+  - state-of-the-art
+  - cutting edge
+  - cutting-edge
+  - modern
+  - contemporary
+  - current
+  - latest
+  - newest
+  - robust
+  - robust enough
+  - reliable
+  - reliable enough
+  - stable
+  - stable enough
+  - secure
+  - secure enough
+  - scalable
+  - scalable enough
+  - maintainable
+  - portable
+  - reusable
+  - modular
+  - intuitive
+  - seamless
+  - seamlessly
+  - transparent
+  - transparently
+  - user friendly
+  - straightforward
+  - convenient
+  - conveniently

@@ -1,0 +1,19 @@
+---
+extends: existence
+message: "Avoid using '%s'. State requirements positively (INCOSE R16)."
+level: warning
+ignorecase: true
+tokens:
+  - 'not'
+  - "don't"
+  - "doesn't"
+  - "won't"
+  - "can't"
+  - 'cannot'
+  - "shouldn't"
+  - "mustn't"
+  - 'shall not'
+  - 'will not'
+  - 'must not'
+  - 'do not'
+  - 'does not'

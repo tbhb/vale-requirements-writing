@@ -1,0 +1,15 @@
+---
+# R36 - Consistent Terms and Units
+# Use terms and units consistently throughout all artifacts.
+extends: consistency
+message: "Inconsistent terminology: '%s'. Use consistent terms throughout (INCOSE R36)."
+link: https://reqi.io/articles/incose-requirements-quality-42-rule-guide
+level: warning
+scope: text
+ignorecase: true
+either:
+  user: users
+  system: systems
+  data: datum
+  indexes: indices
+  appendixes: appendices

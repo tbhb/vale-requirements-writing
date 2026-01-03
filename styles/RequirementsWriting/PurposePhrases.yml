@@ -1,0 +1,13 @@
+---
+extends: existence
+message: "Avoid purpose phrases like '%s'. Requirements should state what is required, not why (INCOSE R20)."
+link: https://reqi.io/articles/incose-requirements-quality-42-rule-guide
+level: warning
+ignorecase: true
+tokens:
+  - purpose of
+  - intent of
+  - reason for
+  - in order to
+  - so that
+  - so as to

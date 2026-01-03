@@ -1,0 +1,30 @@
+---
+extends: existence
+message: >-
+  Avoid implementation details like '%s'. Requirements should be solution-free
+  unless design is intentionally constrained (INCOSE R31).
+link: https://reqi.io/articles/incose-requirements-quality-42-rule-guide
+level: warning
+tokens:
+  - database
+  - algorithm
+  - software
+  - hardware
+  - code
+  - function
+  - method
+  - class
+  - module
+  - API
+  - interface
+  - architecture
+  - design
+  - framework
+  - library
+  - server
+  - client
+  - protocol
+  - network
+  - file
+  - folder
+  - directory

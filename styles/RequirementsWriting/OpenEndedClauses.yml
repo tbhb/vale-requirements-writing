@@ -1,0 +1,12 @@
+---
+# INCOSE R9 - Open-Ended Clauses
+# Reference: https://reqi.io/articles/incose-requirements-quality-42-rule-guide
+extends: existence
+message: "Avoid open-ended clauses like '%s'. Be explicit about what is included (INCOSE R9)."
+link: https://reqi.io/articles/incose-requirements-quality-42-rule-guide
+level: warning
+tokens:
+  - including but not limited to
+  - etc
+  - etc.
+  - and so on
