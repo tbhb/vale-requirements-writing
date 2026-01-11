@@ -7,7 +7,11 @@ node_modules/
 # Vale synced packages (external styles downloaded to styles/)
 styles/*
 !styles/RequirementsWriting/
-!styles/config/vocabularies/requirements-writing
+!styles/config/
+styles/config/*
+!styles/config/vocabularies/
+styles/config/vocabularies/*
+!styles/config/vocabularies/requirements-writing/
 
 # Claude/OAPS (local development)
 .claude
